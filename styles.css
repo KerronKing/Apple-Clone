@@ -27,6 +27,11 @@ body {
     width: 95%;
     z-index: 5;
 }
+.nav-img {
+    height: 60%;
+    text-align: center;
+    width: 25%;
+}
 .apple {
     background-image: url("Images/apple-icon.jpg");
     background-size: 25px 25px;
