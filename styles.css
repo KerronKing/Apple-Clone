@@ -19,19 +19,26 @@ body {
 }
 .nav-list {
     border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
     padding: 0;
     margin: 0 auto;
-    width: 50%;
+    text-align: center;
+    width: 95%;
 }
 .apple {
     background-image: url("Images/apple-icon.jpg");
-    background-size: 10px 10px;
+    background-size: 40px 40px;
     background-repeat: no-repeat;
 }
 .nav-list li {
-    display: inline;
+    border: 1px solid purple;
+    display: inline-block;
     color: white;
-    padding-right: 1%;
+    list-style: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 14%;
 }
 
 /* This is the main text area located between the navbar and the mid-section */
@@ -50,4 +57,7 @@ body {
 .main-txt p {
     color: white;
     font-size: 24px
+}
+.sctn-sep {
+    padding-bottom: 250px;
 }
