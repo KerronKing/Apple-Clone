@@ -1,3 +1,8 @@
+/* This is the navbar section */
+body {
+    margin: 0;
+    padding: 0;
+}
 .container {
     background-attachment: scroll;
     background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
@@ -6,16 +11,17 @@
     position: relative;
 }
 .c-nav {
-    height: 50px;
-    left: 30%;
-    top: 30%;
+    border: 1px solid red;
     position: relative;
+    margin: 0 auto;
+    top: 80px;
+    width: 80%;
 }
 .nav-list {
-    /* display: inline-block; */
-    float: left;
+    border: 1px solid blue;
     padding: 0;
-    width: 80%;
+    margin: 0 auto;
+    width: 50%;
 }
 .apple {
     background-image: url("Images/apple-icon.jpg");
@@ -27,6 +33,21 @@
     color: white;
     padding-right: 1%;
 }
-.search-bar {
-    float: left;
+
+/* This is the main text area located between the navbar and the mid-section */
+
+.main-txt {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.main-txt h2 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+.main-txt p {
+    color: white;
+    font-size: 24px
 }
