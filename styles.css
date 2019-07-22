@@ -107,6 +107,12 @@ body {
 .sctn-sep {
     padding-bottom: 250px;
 }
+.play-btn {
+    height: 29px;
+    position: relative;
+    top: 6px;
+    width: 29px;
+}
 
 /* iPhone Links Section */
 
