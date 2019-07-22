@@ -21,12 +21,13 @@ body {
     width: 80%;
 }
 .nav-list {
+    background-image: linear-gradient(rgb(122, 120, 120) 51%, rgb(100, 98, 98) 51%, rgb(129, 129, 129));
     border-radius: 4px;
     box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
     display: flex;
     flex-direction: row;
     height: 36px;
-    padding: 0;
+    padding: 1px;
     margin: 0 auto;
     text-align: center;
     width: 97%;
@@ -44,8 +45,6 @@ body {
     z-index: 10;
 }
 .nav-list li {
-    border-right: 1px solid rgb(102, 100, 100);
-    background-image: linear-gradient(rgb(122, 120, 120) 51%, rgb(100, 98, 98) 51%, rgb(129, 129, 129));
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -54,6 +53,7 @@ body {
     padding-bottom: 7px;
     width: 14%;
 }
+.nav-bdr {border-right: 1px solid rgb(102, 100, 100)};
 .widen:focus-within {
     transition: .35s ease-in-out;
     width: 40%;
