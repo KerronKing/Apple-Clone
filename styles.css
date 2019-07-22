@@ -11,14 +11,12 @@ body {
     position: relative;
 }
 .c-nav {
-    border: 1px solid red;
     position: relative;
     margin: 0 auto;
     top: 80px;
     width: 80%;
 }
 .nav-list {
-    border: 1px solid blue;
     border-radius: 4px;
     box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
     display: flex;
@@ -43,7 +41,6 @@ body {
 }
 .nav-list li {
     background-image: linear-gradient(rgb(177, 174, 174), rgb(85, 84, 84) 50%);
-    border: 1px solid purple;
     display: inline-block;
     color: white;
     list-style: none;
@@ -103,3 +100,36 @@ body {
 .sctn-sep {
     padding-bottom: 250px;
 }
+
+/* iPhone Links Section */
+
+.link-container {
+    position: relative;
+    height: 200px;
+    bottom: 24px;
+    width: 100%;
+}
+.iphone {
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.link img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    bottom: 25px;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+/*
+.ftr-1 {}
+.ftr-2 {}
+.ftr-3 {} */
