@@ -51,15 +51,36 @@ body {
     padding-bottom: 7px;
     width: 14%;
 }
+.widen:focus-within {
+    transition: .35s ease-in-out;
+    width: 40%;
+}
 .search-bar {
-    background: none;
+    background-image: url(Images/mag-glass.png);   
+    background-position: 5% 50%;   
+    background-repeat: no-repeat;
+    background-size: 14px;
     background-color: rgba(255,255,255,.1);
     border: 0 none;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, 
         rgba(255, 255, 255, 0.2) 0 1px 0;
     height: 84%;
+    transition: .35s ease-in-out;
     width: 80%;
+}
+.search-bar:focus {
+    background-image: url(Images/mag-glass-2.png);   
+    background-position: 5% 50%;   
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-color: white;
+    border: 0 none;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, 
+        rgba(255, 255, 255, 0.2) 0 1px 0;
+    height: 84%;
+    width: 97%;
 }
 
 /* This is the main text area located between the navbar and the mid-section */
