@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.font {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
 .container {
     background-attachment: scroll;
     background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
@@ -40,11 +44,13 @@ body {
     z-index: 10;
 }
 .nav-list li {
-    background-image: linear-gradient(rgb(177, 174, 174), rgb(85, 84, 84) 50%);
+    border-right: 1px solid rgb(102, 100, 100);
+    background-image: linear-gradient(rgb(122, 120, 120) 51%, rgb(100, 98, 98) 51%, rgb(129, 129, 129));
     display: inline-block;
     color: white;
+    font-size: 12px;
     list-style: none;
-    padding-top: 7px;
+    padding-top: 10px;
     padding-bottom: 7px;
     width: 14%;
 }
@@ -64,7 +70,7 @@ body {
         rgba(255, 255, 255, 0.2) 0 1px 0;
     height: 84%;
     transition: .35s ease-in-out;
-    width: 80%;
+    width: 78%;
 }
 .search-bar:focus {
     background-image: url(Images/mag-glass-2.png);   
@@ -89,13 +95,14 @@ body {
 }
 .main-txt h2 {
     color: white;
-    font-size: 48px;
+    font-size: 52px;
+    font-weight: lighter;
     margin-bottom: 1%;
     margin-top: 5%;
 }
 .main-txt p {
     color: white;
-    font-size: 24px
+    font-size: 28px
 }
 .sctn-sep {
     padding-bottom: 250px;
@@ -106,7 +113,7 @@ body {
 .link-container {
     position: relative;
     height: 200px;
-    bottom: 24px;
+    bottom: 28px;
     width: 100%;
 }
 .iphone {
