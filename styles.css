@@ -1,0 +1,198 @@
+/* This is the navbar section */
+body {
+    margin: 0;
+    padding: 0;
+}
+.font {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.container {
+    background-attachment: scroll;
+    background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.c-nav {
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+    width: 80%;
+}
+.nav-list {
+    background-image: linear-gradient(rgb(122, 120, 120) 51%, rgb(100, 98, 98) 51%, rgb(129, 129, 129));
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    padding: 1px;
+    margin: 0 auto;
+    text-align: center;
+    width: 97%;
+    z-index: 5;
+}
+.nav-img {
+    height: 98%;
+    text-align: center;
+    width: 21%;
+}
+.apple {
+    background-image: url("Images/apple-icon.jpg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.nav-list li {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    width: 14%;
+}
+.nav-list a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.nav-bdr {border-right: 1px solid rgb(102, 100, 100)};
+.widen:focus-within {
+    transition: .35s ease-in-out;
+    width: 40%;
+}
+.search-bar {
+    background-image: url(Images/mag-glass.png);   
+    background-position: 5% 50%;   
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-color: rgba(255,255,255,.1);
+    border: 0 none;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, 
+        rgba(255, 255, 255, 0.2) 0 1px 0;
+    height: 84%;
+    transition: .35s ease-in-out;
+    width: 78%;
+}
+.search-bar:focus {
+    background-image: url(Images/mag-glass-2.png);   
+    background-position: 5% 50%;   
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-color: white;
+    border: 0 none;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, 
+        rgba(255, 255, 255, 0.2) 0 1px 0;
+    height: 84%;
+    width: 97%;
+}
+
+/* This is the main text area located between the navbar and the mid-section */
+
+.main-txt {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.main-txt h2 {
+    color: white;
+    font-size: 52px;
+    font-weight: lighter;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+.main-txt p {
+    color: white;
+    font-size: 28px
+}
+.sctn-sep {
+    padding-bottom: 250px;
+}
+.play-btn {
+    height: 29px;
+    position: relative;
+    top: 6px;
+    width: 29px;
+}
+
+/* iPhone Links Section */
+
+.link-container {
+    position: relative;
+    height: 200px;
+    bottom: 28px;
+    width: 100%;
+}
+.iphone {
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.link img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    bottom: 25px;
+    color: #6e6e6e;
+    font-size: 0.75em;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    position: relative;
+    width: 90%;
+}
+footer a {
+    color: #08c;
+    text-decoration: none;
+}
+.ftr {
+    float: left;
+    margin-left: 5%;
+}
+.ftr-1 {
+    float: right;
+    margin-left: 0%;
+    margin-right: 3%;
+    width: 47%;
+}
+.ftr-1 ul {
+    list-style: none;
+    margin-top: 2.17%;
+    padding-left: 0%;
+}
+.ftr-1 ul li {
+    font-size: 1em;
+    display: inline;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.list-border {
+    border-right: 1px solid rgba(194, 191, 191, 0.966);
+}
+.ftr-flag {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ftr-flag img {
+    height: 14px;
+    position: absolute;
+    width: 14px;
+}
+.ftr-2 {
+    clear: left;
+    margin-left: 5%;
+}
+.ftr-2 span {
+    border-left: 1px solid rgba(194, 191, 191, 0.966);
+    padding-left: 0.5%;
+}
