@@ -51,7 +51,12 @@ body {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 7px;
+    text-decoration: none;
     width: 14%;
+}
+.nav-list a {
+    color: inherit;
+    text-decoration: inherit;
 }
 .nav-bdr {border-right: 1px solid rgb(102, 100, 100)};
 .widen:focus-within {
