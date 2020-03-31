@@ -94,21 +94,12 @@ body {
 /* This is the main text area located between the navbar and the mid-section */
 
 .main-txt {
+    height: 30rem;
     position: relative;
     top: 80px;
     text-align: center;
 }
-.main-txt h2 {
-    color: white;
-    font-size: 52px;
-    font-weight: lighter;
-    margin-bottom: 1%;
-    margin-top: 5%;
-}
-.main-txt p {
-    color: white;
-    font-size: 28px
-}
+#part-deux { margin-bottom: 0.6rem; }
 .sctn-sep {
     padding-bottom: 250px;
 }
@@ -139,6 +130,26 @@ body {
     width: 100%;
 }
 
+#link-1 {
+    background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+#link-2 {
+    background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+#link-3 {
+    background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+#link-4 {
+    background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+    background-position: center;   
+    background-repeat: no-repeat;
+}
 /* Footer */
 
 footer {
